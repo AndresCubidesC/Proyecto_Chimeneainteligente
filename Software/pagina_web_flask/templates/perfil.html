@@ -59,6 +59,17 @@
 
                 <form method="POST" action="{{modificar}}">
                    
+                    <label><h2>USUARIO: {{username}}</h2></label>
+                    <label><h2>NOMBRE:</h2></label>
+                    <input type="text" value="{{nombres}}" name = 'nombres'>
+                    <label><h2>APELLIDO:</h2></label>
+                    <input type="text" value="{{apellidos}}" name="apellidos">
+                    <label><h2>CORREO ELECTRÓNICO:</h2></label>
+                    <input type="text" value="{{email}}" name="email">
+                    <label style="h2 {color: red;}"> <h2>INGRESE LA CONTRASEÑA PARA GUARDAR CAMBIOS.</h2></label>
+                    <input type="password" name="password">
+                    <br>
+                    <input type="submit" value="GUARDAR CAMBIOS">
 
                 </form>
 
